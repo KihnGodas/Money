@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 100px;
+    text-align: center;
+}
+.header h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.header .sub-header p{
+    font-weight:600;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    text-indent: 40px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* part 1 */
+.part-1 .title{
+    width: 80%;
+    margin: auto;
+    text-indent:  40px;
+    margin-bottom: 30px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img img{
+    width: 100%;
+}
+.text{
+    width: 65%;
+    text-align: justify;
+}
+.text p{
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;
+}
+.container .img{
+    width: 25%;
+}
+/* container 2 */
+.container-2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.video{
+    text-align: right;
+}
+.video video{
+    width: 60%;
+}
+
+.text-2 p {
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 650px;
+}
+/* part 2 */
+.part-2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.part-2 .title{
+    
+    text-indent:  40px;
+    margin-bottom: 10px;
+}
+.part-2 .paragraph{
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;;
+}
+
+/* part 3 */
+.part-3{
+    width: 80%;
+    margin: auto;
+}
+.part-3 .title{
+    text-indent:  40px;
+    margin-bottom: 10px;
+}
+.part-3 .paragraph{
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;
+}
+.image img{
+    width: 100%;
+}

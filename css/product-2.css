@@ -1,0 +1,88 @@
+.header{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.header h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.header .sub-header p{
+    font-weight:600;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    text-indent: 40px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+/* part 1 */
+.part-1 .title{
+    width: 80%;
+    margin: auto;
+    text-indent:  40px;
+    margin-bottom: 30px;
+}
+.part-1 .text{
+    width: 80%;
+    margin: auto;
+}
+.part-1 .text p{
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.part-1 .image{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.image img{
+    width: 45%;
+    margin-bottom: 30px;
+}
+
+/* part-2 */
+.part-2 .title{
+    width: 90%;
+    margin: auto;
+}
+.part-2 .text{
+    width: 80%;
+    margin: auto;
+}
+.part-2 .text p{
+    line-height: 1.9;
+    text-indent: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.part-2 .image2{
+    width: 80%;
+    margin: auto;
+    
+}
+.part-2 .image2 img{
+    width: 100%;
+    margin-top: 30px;
+}
+.image2 .image-container{
+    display: flex;
+    justify-content: space-between;
+}
+.image2 .image-container img{
+    width: 45%;
+    margin-bottom: 30px;
+}
+.video{
+    width: 80%;
+    margin: auto;
+}
+.video video{
+    width: 100%;
+}

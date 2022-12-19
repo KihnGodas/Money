@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    text-align: center;
+}
+.header h1 {
+    
+    width: 60%;
+    margin: auto    ;
+    margin-top:100px ;
+    margin-bottom: 60px ;
+    font-size: 40px; ;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1cm;
+}
+.image{
+    width: 40%;
+    margin-left: 40px;
+}
+.image img{
+    width: 100%;
+}
+.thong-tin-ca-nhan{
+    max-width :700px; ;
+}
+.thong-tin-ca-nhan .li{
+    padding-left: 60px;
+}
+.thong-tin-ca-nhan p{
+    text-indent: 40px;
+    overflow: visible;
+}
+.thong-tin-ca-nhan h3,li,p{
+    font-size: 25px;
+    line-height: 1.5;
+}
