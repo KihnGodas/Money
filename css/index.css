@@ -5,6 +5,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-  
+.header{
+    font-size: 40px;
+    margin-top: 190px;
+    text-align: center;
+    animation: 3s changeColor infinite;
+}
+@keyframes changeColor {
+    0%{
+        color: red;
+    }
+    30%{
+        color: chocolate;
+    }
+    60%{
+        color: orange;
+    }
+    100%{
+        color: palevioletred;
+    }
+}
   
